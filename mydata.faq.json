@@ -1,0 +1,479 @@
+[{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b1"
+  },
+  "question": "What is FixConnect?",
+  "keywords": [
+    "what",
+    "fixconnect",
+    "about",
+    "app",
+    "purpose"
+  ],
+  "answer": "FixConnect is a mobile app that connects customers with certified engineers for technical services. Find trusted professionals for electrical, HVAC, security, plumbing, and power solutions.",
+  "category": "general",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b2"
+  },
+  "question": "How do I register as a customer?",
+  "keywords": [
+    "register",
+    "customer",
+    "sign up",
+    "create account",
+    "registration"
+  ],
+  "answer": "Tap Register → Choose 'Customer' → Enter username, email, password, location → Verify email code → Continue.",
+  "category": "registration",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b3"
+  },
+  "question": "How do I register as an engineer?",
+  "keywords": [
+    "register",
+    "engineer",
+    "professional",
+    "sign up",
+    "trade certification"
+  ],
+  "answer": "Tap Register → Choose 'Engineers' → Enter details and upload trade certification → Verify email → Continue. You can also set availability and write a description.",
+  "category": "registration",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b4"
+  },
+  "question": "How do I reset my password?",
+  "keywords": [
+    "forgot",
+    "password",
+    "reset",
+    "change password",
+    "login problem"
+  ],
+  "answer": "On login screen, tap 'Forgot password?' → Enter email → Verify code → Create new password → Change Password.",
+  "category": "authentication",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b5"
+  },
+  "question": "How do I book a service?",
+  "keywords": [
+    "book",
+    "booking",
+    "request",
+    "service",
+    "quote",
+    "hire"
+  ],
+  "answer": "From home screen: Request a Services → Fill service details (name, location, date, description) → Send Request → Review offers → Accept offer → Pay via Stripe → Confirm booking.",
+  "category": "booking",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b6"
+  },
+  "question": "What services are available?",
+  "keywords": [
+    "services",
+    "categories",
+    "electrical",
+    "hvac",
+    "plumbing",
+    "security",
+    "power"
+  ],
+  "answer": "Available services: Electrical, HVAC Systems, Security Systems, Power Solutions, and Plumbing. You can request quotes for any technical issue.",
+  "category": "services",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b7"
+  },
+  "question": "How do I request a quote?",
+  "keywords": [
+    "quote",
+    "request",
+    "price",
+    "estimate",
+    "cost"
+  ],
+  "answer": "Tap 'Request a Services' → Enter service name, location, mobile number, service date, description → Upload image (optional) → Send Request.",
+  "category": "booking",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b8"
+  },
+  "question": "How do I respond to service requests?",
+  "keywords": [
+    "respond",
+    "offer",
+    "bid",
+    "service request",
+    "engineer",
+    "accept"
+  ],
+  "answer": "Check Services Request List → View Details → Select your price and time → Send Offer. You'll get notifications for new requests.",
+  "category": "engineer_workflow",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45b9"
+  },
+  "question": "How do I accept a job?",
+  "keywords": [
+    "accept",
+    "job",
+    "offer",
+    "work",
+    "take"
+  ],
+  "answer": "From your Services Request List, tap 'Accept' on the job you want. Customer will be notified and you can start the service.",
+  "category": "engineer_workflow",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45ba"
+  },
+  "question": "How do I make payment?",
+  "keywords": [
+    "payment",
+    "pay",
+    "stripe",
+    "billing",
+    "money",
+    "cost"
+  ],
+  "answer": "After accepting an offer: Review payment details → Confirm Stripe payment method → Pay Now → Confirm Booking → Done.",
+  "category": "payment",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45bb"
+  },
+  "question": "What payment methods are accepted?",
+  "keywords": [
+    "payment",
+    "methods",
+    "stripe",
+    "card",
+    "how to pay"
+  ],
+  "answer": "FixConnect uses Stripe for secure payments. All major credit/debit cards are accepted through Stripe.",
+  "category": "payment",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45bc"
+  },
+  "question": "Can I add extra payment?",
+  "keywords": [
+    "extra",
+    "payment",
+    "additional",
+    "more",
+    "tip"
+  ],
+  "answer": "Yes, engineers can request 'Extra Payment' for additional work. You'll see this option during the payment process.",
+  "category": "payment",
+  "user_type": "both",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45bd"
+  },
+  "question": "How do I cancel a booking?",
+  "keywords": [
+    "cancel",
+    "cancellation",
+    "remove",
+    "delete",
+    "stop"
+  ],
+  "answer": "Go to Services → Find your booking → Tap Cancel. Check our refund policy for cancellation terms.",
+  "category": "service_management",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45be"
+  },
+  "question": "How do I reschedule a service?",
+  "keywords": [
+    "reschedule",
+    "change",
+    "time",
+    "date",
+    "move"
+  ],
+  "answer": "Use the chat feature to contact your engineer directly to discuss rescheduling options.",
+  "category": "service_management",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45bf"
+  },
+  "question": "What are the service statuses?",
+  "keywords": [
+    "status",
+    "pending",
+    "progress",
+    "complete",
+    "service"
+  ],
+  "answer": "Service statuses: Pending (waiting for engineer), In Progress (being worked on), Complete (finished and paid).",
+  "category": "service_management",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c0"
+  },
+  "question": "How do I contact my engineer?",
+  "keywords": [
+    "contact",
+    "message",
+    "chat",
+    "talk",
+    "communicate"
+  ],
+  "answer": "Use the built-in Messages feature to chat directly with your engineer. Available after booking confirmation.",
+  "category": "communication",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c1"
+  },
+  "question": "How do I contact my customer?",
+  "keywords": [
+    "contact",
+    "customer",
+    "message",
+    "chat",
+    "communicate"
+  ],
+  "answer": "Use the Messages feature to chat with customers. This helps clarify service details and coordinate visits.",
+  "category": "communication",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c2"
+  },
+  "question": "How do I rate an engineer?",
+  "keywords": [
+    "rate",
+    "rating",
+    "review",
+    "feedback",
+    "stars"
+  ],
+  "answer": "After service completion, go to Rating & Review screen → Rate service quality → Write review → Submit feedback.",
+  "category": "reviews",
+  "user_type": "customer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c3"
+  },
+  "question": "What are the subscription plans?",
+  "keywords": [
+    "subscription",
+    "plans",
+    "pro",
+    "premium",
+    "pricing",
+    "cost"
+  ],
+  "answer": "Plans: Free (£0), Pro (£20/month - 'Scaling Your Practice'), Premium (£49/month - 'More Leads, Bigger Profits'). Engineers can upgrade for premium features.",
+  "category": "subscription",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c4"
+  },
+  "question": "How do I upgrade my plan?",
+  "keywords": [
+    "upgrade",
+    "pro",
+    "premium",
+    "subscription",
+    "pay"
+  ],
+  "answer": "Go to Profile → Subscription → Choose Pro or Premium plan → Select Stripe payment → Confirm upgrade.",
+  "category": "subscription",
+  "user_type": "engineer",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c5"
+  },
+  "question": "How do I change my password?",
+  "keywords": [
+    "change",
+    "password",
+    "update",
+    "security"
+  ],
+  "answer": "Go to Profile → Security → Change Password → Enter current and new password → Save changes.",
+  "category": "profile",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c6"
+  },
+  "question": "How do I log out?",
+  "keywords": [
+    "log out",
+    "logout",
+    "sign out",
+    "exit"
+  ],
+  "answer": "Go to Profile → Log Out → Confirm 'Yes, Logout' in the dialog box.",
+  "category": "profile",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c7"
+  },
+  "question": "How do I update my profile?",
+  "keywords": [
+    "profile",
+    "update",
+    "edit",
+    "information",
+    "details"
+  ],
+  "answer": "Go to Profile → User Information → Edit your details → Save changes. Engineers can also update trade certification here.",
+  "category": "profile",
+  "user_type": "both",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c8"
+  },
+  "question": "What is the refund policy?",
+  "keywords": [
+    "refund",
+    "policy",
+    "money back",
+    "return"
+  ],
+  "answer": "All purchases are final. No refunds once service is revealed due to digital/time-sensitive nature. Contact support for technical issues.",
+  "category": "policies",
+  "user_type": "both",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45c9"
+  },
+  "question": "What data do you collect?",
+  "keywords": [
+    "privacy",
+    "data",
+    "information",
+    "collect",
+    "personal"
+  ],
+  "answer": "We collect: name, email, payment info, usage data, and communication preferences. We never sell your information to third parties.",
+  "category": "policies",
+  "user_type": "both",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45ca"
+  },
+  "question": "I'm not receiving notifications",
+  "keywords": [
+    "notifications",
+    "alerts",
+    "not receiving",
+    "missing"
+  ],
+  "answer": "Check your device notification settings for FixConnect. Ensure notifications are enabled in app settings and device settings.",
+  "category": "troubleshooting",
+  "user_type": "both",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45cb"
+  },
+  "question": "The app is not working properly",
+  "keywords": [
+    "app",
+    "not working",
+    "bug",
+    "error",
+    "problem",
+    "issue"
+  ],
+  "answer": "Try closing and reopening the app. If issues persist, update to the latest version or contact support through Profile → Legal and Policies.",
+  "category": "troubleshooting",
+  "user_type": "both",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "6848e8df48aa38d083eb45cc"
+  },
+  "question": "How do I get support?",
+  "keywords": [
+    "support",
+    "help",
+    "contact",
+    "assistance",
+    "customer service"
+  ],
+  "answer": "For support, go to Profile → Legal and Policies → Contact Support, or reach out through the in-app messaging system.",
+  "category": "support",
+  "user_type": "both",
+  "priority": 1
+}]
